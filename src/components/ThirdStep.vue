@@ -1,5 +1,8 @@
 <template>
-  <navigation/>
+  <div>
+    <h1>third step</h1>
+    <navigation/>
+  </div>
 </template>
 
 <script>

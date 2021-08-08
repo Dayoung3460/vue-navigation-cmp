@@ -1,5 +1,7 @@
 <template>
   <div class="first">
+
+    <h1>first step</h1>
     <label for="first-name">First Name</label>
     <input type="text" id="first-name" name="firstName" v-model="firstName"/>
 
@@ -37,7 +39,5 @@ export default {
 </script>
 
 <style scoped>
-.first {
-  background-color: red;
-}
+
 </style>

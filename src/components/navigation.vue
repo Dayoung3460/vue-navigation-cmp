@@ -19,9 +19,6 @@ export default {
 
   },
 
-  created() {
-
-  },
   methods: {
     nextButtonText() {
       if(this.$route.name === 'forthStep' || (this.$route.name === 'thirdStep' && !this.$store.state.hasFourthStep)) {
